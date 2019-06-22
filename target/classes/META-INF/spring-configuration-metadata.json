@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "name": "sombrero",
+      "type": "sombrero.SombreroProperties",
+      "sourceType": "sombrero.SombreroProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sombrero.age",
+      "type": "java.lang.Integer",
+      "sourceType": "sombrero.SombreroProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "sombrero.full-name",
+      "type": "java.lang.String",
+      "sourceType": "sombrero.SombreroProperties"
+    },
+    {
+      "name": "sombrero.name",
+      "type": "java.lang.String",
+      "sourceType": "sombrero.SombreroProperties"
+    },
+    {
+      "name": "sombrero.session-timeout",
+      "type": "java.time.Duration",
+      "description": "이 값을 초로 받겠다. 안들어오면 30초. @DurationUnit(ChronoUnit.SECONDS) 설정 없이 프로퍼티즈 파일에서 값 뒤에 s를 붙이면 자동으로 듀레이션해줌.",
+      "sourceType": "sombrero.SombreroProperties",
+      "defaultValue": "30s"
+    }
+  ],
+  "hints": []
+}

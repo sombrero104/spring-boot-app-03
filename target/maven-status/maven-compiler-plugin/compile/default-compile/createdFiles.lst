@@ -1,0 +1,6 @@
+sombrero/SampleRunner.class
+META-INF/spring-configuration-metadata.json
+sombrero/config/TestConfiguration.class
+sombrero/SombreroProperties.class
+sombrero/config/BaseConfiguration.class
+sombrero/Application.class
